@@ -1,0 +1,24 @@
+{
+    "name": "scifi-ui-sass-framework",
+    "version": "0.1.0",
+    "description": "A SASS framework inspired by clean and functional science fiction user interfaces",
+    "author": "Robert K. Pauls <r.pauls@robertkpauls.com> (https://www.robertkpauls.com)",
+    "license": "MIT",
+    "repository": "git://github.com/rpauls/scifi-ui-sass-framework",
+    "style": "dist/scifi-ui-framework.css",
+    "main": "dist/scifi-ui-framework.css",
+    "devDependencies": {
+        "grunt": "^1.0.2",
+        "grunt-autoprefixer": "^3.0.4",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-myth": "^1.1.0",
+        "grunt-processhtml": "^0.4.1",
+        "grunt-sass": "^2.1.0",
+        "normalize.css": "^8.0.0",
+        "flex-responsive-grid": "rpauls/flex-responsive-grid#v1.1.0"
+
+    }
+}
