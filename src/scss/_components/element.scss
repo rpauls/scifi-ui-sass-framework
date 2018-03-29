@@ -1,0 +1,31 @@
+/* Element */
+
+.sfu-element {
+    @include rem(margin, -1px);
+    @include rem(border, 2px solid $color--teal-light);
+
+    &--title {
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1;
+
+        @include rem(font-size, 18px);
+        @include rem(padding, 6px 10px);
+        @include rem(border-bottom, 2px solid $color--teal-light);
+
+        &-sup {
+            display: block;
+            color: $color--green-dark;
+            line-height: 1;
+
+            @include rem(font-size, 12px);
+        }
+    }
+
+    &--content {
+        line-height: 1;
+
+        @include rem(font-size, 14px);
+        @include rem(padding, 6px 10px);
+    }
+}

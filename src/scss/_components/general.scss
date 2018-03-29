@@ -1,0 +1,14 @@
+html, body {
+    background: $color--black;
+    color: $color--white;
+    font-family: 'Space Mono', monospace;
+    height: 100%;
+    @include rem(min-height, 720px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}

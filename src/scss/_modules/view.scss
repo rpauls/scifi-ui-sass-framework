@@ -1,0 +1,11 @@
+.sfu-view {
+    display: grid;
+
+    padding: rem(7px 7px 7px 7px);
+
+    width: 100%;
+    height: 100%;
+
+    grid-template-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}

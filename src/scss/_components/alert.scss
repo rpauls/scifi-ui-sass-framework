@@ -1,0 +1,16 @@
+/* Alert status */
+
+
+
+.anim-alert {
+    .sfu-element,
+    .sfu-element--title {
+        animation: alert--element-border 1.25s infinite alternate ease-in-out;
+    }
+}
+
+// Keyframes
+@keyframes alert--element-border {
+	from { border-color: $color--teal-light; }
+	to { border-color: $color--red; }
+}

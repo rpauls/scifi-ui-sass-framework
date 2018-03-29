@@ -16,8 +16,6 @@
         "grunt-contrib-watch": "^1.0.0",
         "grunt-myth": "^1.1.0",
         "grunt-processhtml": "^0.4.1",
-        "grunt-sass": "^2.1.0",
-        "flex-responsive-grid": "rpauls/flex-responsive-grid#v1.1.2"
-
+        "grunt-sass": "^2.1.0"
     }
 }

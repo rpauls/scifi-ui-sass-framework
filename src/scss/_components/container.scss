@@ -1,0 +1,18 @@
+/* Container */
+
+.sfu-container {
+    width: 100%;
+    margin: 0 auto;
+
+    &-50perc {
+        width: 50%;
+    }
+
+    &-33perc {
+        width: 33%;
+    }
+
+    &-25perc {
+        width: 25%
+    }
+}

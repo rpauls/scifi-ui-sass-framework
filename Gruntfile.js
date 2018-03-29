@@ -17,8 +17,7 @@ module.exports = function(grunt) {
             },
             release: {
                 files: {
-                    'dist/scifiui.css': 'build/css/scifi-ui-framework.css',
-                    'dist/style.css': 'build/css/style.css'
+                    'dist/scifiui.css': 'build/css/scifi-ui-framework.css'
                 }
             }
         },
@@ -28,8 +27,7 @@ module.exports = function(grunt) {
                     sourceMap: true
                 },
                 files: {
-                    'build/css/scifi-ui-framework.css': 'src/scss/scifi-ui-framework.scss',
-                    'build/css/style.css': 'src/scss/style.scss'
+                    'build/css/scifi-ui-framework.css': 'src/scss/scifi-ui-framework.scss'
                 }
             }
         },
@@ -50,8 +48,7 @@ module.exports = function(grunt) {
         cssmin: {
             concat: {
                 files: {
-                    'dist/scifiui.css': ['build/css/scifi-ui-framework.css'],
-                    'dist/style.css': ['node_modules/flex-responsive-grid/dist/frg.css', 'build/css/style.css']
+                    'dist/scifiui.css': ['build/css/scifi-ui-framework.css']
                 }
             },
             minify: {
