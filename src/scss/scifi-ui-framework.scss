@@ -10,11 +10,13 @@
 
 /* Components */
 
+@import '_components/reset.scss';
 @import '_components/fonts.scss';
 @import '_components/general.scss';
 @import '_components/container.scss';
 @import '_components/element.scss';
 @import '_components/alert.scss';
+@import '_components/button.scss';
 
 /* Modules */
 @import '_modules/view.scss';

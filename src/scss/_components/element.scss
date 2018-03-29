@@ -2,7 +2,7 @@
 
 .sfu-element {
     @include rem(margin, -1px);
-    @include rem(border, 2px solid $color--teal-light);
+    @include rem(border, 2px solid $color--teal);
 
     &--title {
         text-transform: uppercase;
@@ -11,7 +11,7 @@
 
         @include rem(font-size, 18px);
         @include rem(padding, 6px 10px);
-        @include rem(border-bottom, 2px solid $color--teal-light);
+        @include rem(border-bottom, 2px solid $color--teal);
 
         &-sup {
             display: block;
@@ -24,6 +24,7 @@
 
     &--content {
         line-height: 1;
+        color: $color--grey;
 
         @include rem(font-size, 14px);
         @include rem(padding, 6px 10px);
