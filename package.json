@@ -17,8 +17,7 @@
         "grunt-myth": "^1.1.0",
         "grunt-processhtml": "^0.4.1",
         "grunt-sass": "^2.1.0",
-        "normalize.css": "^8.0.0",
-        "flex-responsive-grid": "rpauls/flex-responsive-grid#v1.1.0"
+        "flex-responsive-grid": "rpauls/flex-responsive-grid#v1.1.2"
 
     }
 }
