@@ -860,10 +860,6 @@ findup-sync@~0.3.0:
   dependencies:
     glob "~5.0.0"
 
-flex-responsive-grid@rpauls/flex-responsive-grid#v1.1.2:
-  version "1.1.2"
-  resolved "https://codeload.github.com/rpauls/flex-responsive-grid/tar.gz/5c8d7d611a12751080cd0b8b42e07f53029e9b50"
-
 for-in@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
