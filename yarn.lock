@@ -1204,6 +1204,7 @@ findup-sync@~0.3.0:
   dependencies:
     glob "~5.0.0"
 
+<<<<<<< HEAD
 fined@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/fined/-/fined-1.1.1.tgz#95d88ff329123dd1a6950fdfcd321f746271e01f"
@@ -1228,6 +1229,9 @@ follow-redirects@^1.2.5:
     debug "^3.2.6"
 
 for-in@^1.0.1, for-in@^1.0.2:
+=======
+for-in@^1.0.1:
+>>>>>>> 2d3783714c4b36750dcd0b55c9fe46df3bf65e68
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
