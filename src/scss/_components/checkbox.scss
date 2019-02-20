@@ -1,0 +1,63 @@
+.sfu-chkbx {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    @include rem(min-height, 40px);
+    @include rem(margin-bottom, 2px);
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    
+
+    input[type="checkbox"] {
+        height: 0;
+        width: 0;
+        visibility: hidden;
+        display: inline-block;
+    }
+
+    label {
+        //text-indent: -9999px;
+        cursor: pointer;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        @include rem(min-width, 68px);
+        @include rem(height, 40px);
+        @include rem(padding-left, 90px);
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+        }
+
+        &:before {
+            @include rem(height, 36px);
+            @include rem(width, 68px);
+            @include rem(top, 0);
+            @include rem(left, 0);
+            border: 2px solid $color__grey;
+        }
+
+        &:after {
+            @include rem(height, 32px);
+            @include rem(width, 32px);
+            @include rem(top, 4px);
+            @include rem(left, 4px);
+            background: $color__red;
+            transition: left 0.05s ease-in-out;
+        }
+    }
+
+    input:checked + label:before {
+        background: transparent;
+    }
+
+    input:checked + label:after {
+        @include rem(left, 36px);
+        background: $color__teal;
+    }
+} 

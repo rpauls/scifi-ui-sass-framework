@@ -15,8 +15,11 @@
 @import '_components/general.scss';
 @import '_components/container.scss';
 @import '_components/element.scss';
-@import '_components/alert.scss';
 @import '_components/button.scss';
+@import '_components/checkbox.scss';
+
+/* Animations */
+@import '_animations/alert.scss';
 
 /* Modules */
 @import '_modules/view.scss';

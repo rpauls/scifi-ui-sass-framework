@@ -1,6 +1,6 @@
 html, body {
-    background: $color--black;
-    color: $color--white;
+    background: $color__black;
+    color: $color__white;
     font-family: 'Space Mono', monospace;
     height: 100%;
     @include rem(min-height, 720px);
@@ -22,7 +22,7 @@ a:visited {
 }
 
 button {
-    color: $color--grey;
+    color: $color__grey;
     border: none;
     background: transparent;
     cursor: pointer;

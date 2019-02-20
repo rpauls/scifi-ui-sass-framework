@@ -5,87 +5,105 @@
     <title>SciFi UI Framework</title>
 
     <link href="build/css/scifi-ui-framework.css" media="all" rel="stylesheet" />
-    <!--<link href="./dist/scifiui.css" media="all" rel="stylesheet" />-->
+    <!-- <link href="./dist/scifiui.css" media="all" rel="stylesheet" /> -->
 </head>
 <body>
 
-    <main class="sfu-view sfu-view--alpha">
+    <main class="sfu-view sfu-view__alpha ">
         <div class="sfu-element sfu-v-elem-1">
-            <div class="sfu-element--title">
-                sfu-element A
+            <div class="sfu-element__title">
+                sfu-element A | Checkbox
             </div>
-            <div class="sfu-element--content">
-                Demo Content...
+            <div class="sfu-element__content">
+                <div class="sfu-chkbx">
+                    <input type="checkbox" id="chkbx__elem-1" name="chkbx__demo" value="1" /><label for="chkbx__elem-1">Label 1</label>
+                </div>
+                <div class="sfu-chkbx">
+                    <input type="checkbox" id="chkbx__elem-2" name="chkbx__demo" value="2" checked/><label for="chkbx__elem-2">Label 2</label>
+                </div>
+                <div class="sfu-chkbx">
+                    <input type="checkbox" id="chkbx__elem-3" name="chkbx__demo" value="3" /><label for="chkbx__elem-3">Label 3</label>
+                </div>
+                <div class="sfu-chkbx">
+                    <input type="checkbox" id="chkbx__elem-4" name="chkbx__demo" value="4" checked/><label for="chkbx__elem-4">Label 4</label>
+                </div>
+                <div class="sfu-chkbx">
+                    <input type="checkbox" id="chkbx__elem-5" name="chkbx__demo" value="5" /><label for="chkbx__elem-5">Label 5</label>
+                </div>
             </div>
         </div>
     
         <div class="sfu-element sfu-v-elem-2">
-            <div class="sfu-element--title">
-                <span class="sfu-element--title-sup">Feed</span>
+            <div class="sfu-element__title">
+                <span class="sfu-element__title-sup">Feed</span>
                 sfu-element B
             </div>
-            <div class="sfu-element--content">
+            <div class="sfu-element__content">
                 Demo Content...
             </div>
         </div>
 
         <div class="sfu-element sfu-v-elem-3">
-            <div class="sfu-element--title">
-                sfu-element C
+            <div class="sfu-element__title">
+                sfu-element C | Radio
             </div>
-            <div class="sfu-element--content">
-                <button class="sfu-btn sfu-btn--one">Pressurize</button>
-                <button class="sfu-btn sfu-btn--one" disabled>Pressurize</button>
-
-                <button class="sfu-btn sfu-btn--two">Pressurize</button>
-                <button class="sfu-btn sfu-btn--two" disabled>Pressurize</button>
-
-                <button class="sfu-btn sfu-btn--three">Pressurize</button>
-                <button class="sfu-btn sfu-btn--three" disabled>Pressurize</button>
+            <div class="sfu-element__content">
+                
             </div>
         </div>
 
         <div class="sfu-element sfu-v-elem-4">
-            <div class="sfu-element--title">
+            <div class="sfu-element__title">
                 sfu-element D
             </div>
-            <div class="sfu-element--content">
+            <div class="sfu-element__content">
                 Demo Content...
             </div>
         </div>
 
         <div class="sfu-element sfu-v-elem-5">
-            <div class="sfu-element--title">
+            <div class="sfu-element__title">
                 sfu-element E
             </div>
-            <div class="sfu-element--content">
+            <div class="sfu-element__content">
                 Demo Content...
             </div>
         </div>
 
         <div class="sfu-element sfu-v-elem-6">
-            <div class="sfu-element--title">
+            <div class="sfu-element__title">
                 sfu-element F
             </div>
-            <div class="sfu-element--content">
+            <div class="sfu-element__content">
                 Demo Content...
             </div>
         </div>
 
         <div class="sfu-element sfu-v-elem-7">
-            <div class="sfu-element--title">
-                sfu-element G
+            <div class="sfu-element__title">
+                sfu-element G | Button
             </div>
-            <div class="sfu-element--content">
-                Demo Content...
+            <div class="sfu-element__content">
+                <button class="sfu-btn sfu-btn__one">btn type #1</button>
+                <button class="sfu-btn sfu-btn__one" disabled>btn type #1</button>
+
+                <br/>
+
+                <button class="sfu-btn sfu-btn__two">btn type #2</button>
+                <button class="sfu-btn sfu-btn__two" disabled>btn type #2</button>
+
+                <br/>
+
+                <button class="sfu-btn sfu-btn__three">btn type #3</button>
+                <button class="sfu-btn sfu-btn__three" disabled>btn type #3</button>
             </div>
         </div>
         
         <div class="sfu-element sfu-v-elem-8">
-            <div class="sfu-element--title">
+            <div class="sfu-element__title">
                 sfu-element H
             </div>
-            <div class="sfu-element--content">
+            <div class="sfu-element__content">
                 Demo Content...
             </div>
         </div>
